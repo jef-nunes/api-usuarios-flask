@@ -16,7 +16,26 @@ As respostas da API foram padronizadas conforme o exemplo abaixo:
 }
 ```
 
-### Endpoints de registrar usuário e de login
-Para registrar um usuário é necessário fazer uma requisição POST na rota "/user-register", com o body contendo o nome de usuário no campo "username" e a senha no campo "password"
+### Endpoints
 
-O endpoint de login utiliza o método POST na rota "/user-login", passando no body da requisição os mesmos campos do endpoint de registro de usuário. Em caso de login bem sucedido o token JWT é retornado no campo "data".
+1. Registrar usuário:
+- Método: POST
+- Path: /user-register
+- Body:
+```json
+{
+  "username":"seu-usuario",
+  "password":"sua-senha"
+}
+```
+
+2. Login de usuário:
+- Método: POST
+- Path: /user-login
+- Body:
+```json
+{
+  "username":"seu-usuario",
+  "password":"sua-senha"
+}
+```
