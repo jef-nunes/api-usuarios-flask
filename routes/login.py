@@ -6,11 +6,11 @@ from http import HTTPStatus
 from services.auth import verify_password, generate_jwt
 from database.connection import make_sa_session
 
-user_login_bp = Blueprint("login", __name__)
+login_bp = Blueprint("login", __name__)
 
 # Endpoint onde o usuário envia credenciais para login
 # em caso de sucesso é retornado um token JWT
-@user_login_bp.route("/user-login", methods=["POST"])
+@login_bp.route("/login", methods=["POST"])
 def user_login_endpoint():
 
     data = request.json
