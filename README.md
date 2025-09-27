@@ -29,9 +29,9 @@ As respostas da API foram padronizadas conforme o exemplo abaixo:
 }
 ```
 
-2. Login de usuário:
+2. Login:
 - Método: POST
-- Path: /user-login
+- Path: /login
 - Body:
 ```json
 {
