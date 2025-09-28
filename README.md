@@ -1,5 +1,5 @@
 ### Sobre
-Protótipo de autenticação de usuário via token JWT, em uma API desenvolvida com o framework Flask. Para a lógica do JWT foi utilizada a biblioteca PyJWT, enquanto para a lógica de acesso ao banco de dados foi utilizada a biblioteca SQL Alchemy.
+Protótipo: Autenticação de usuário em uma API desenvolvida com Flask, utilizando token JWT para essa finalidade. Para a lógica do JWT foi utilizada a biblioteca PyJWT, enquanto para a lógica de acesso ao banco de dados foi utilizada a biblioteca SQL Alchemy.
 <br>
 <br>
 
