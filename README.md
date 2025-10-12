@@ -1,5 +1,5 @@
 ### Sobre
-Protótipo: API com funcionalidades de login e registrar usuário, utilizando JWT para autenticação. Para a lógica do JWT foi utilizada a biblioteca PyJWT, enquanto para a lógica de acesso ao banco de dados foi utilizada a biblioteca SQL Alchemy.
+API com funcionalidades de login e registrar usuário, utilizando JWT para autenticação. Para a lógica do JWT foi utilizada a biblioteca PyJWT, enquanto para a lógica de acesso ao banco de dados foi utilizada a biblioteca SQL Alchemy.
 <br>
 <br>
 
