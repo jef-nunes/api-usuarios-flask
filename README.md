@@ -1,5 +1,13 @@
 ### Sobre
-API com funcionalidades de login e registrar usuário, utilizando JWT para autenticação. A API foi desenvolvida com Python e Flask. Para a lógica do JWT foi utilizada a biblioteca PyJWT, enquanto para a lógica de acesso ao banco de dados foi utilizada a biblioteca SQLAlchemy.
+API com funcionalidades de login e registrar usuário, utilizando JWT para autenticação.
+<br><br>
+
+### Linguagem
+O projeto foi desenvolvido com Python.
+<br><br>
+
+### Dependências
+A API foi desenvolvida com o framework Flask. Para a lógica do JWT foi utilizada a biblioteca PyJWT, enquanto para a lógica de acesso ao banco de dados foi utilizada a biblioteca SQLAlchemy.
 <br>
 <br>
 
