@@ -1,5 +1,5 @@
 ### Sobre
-API com funcionalidades de login e registrar usuário, utilizando JWT para autenticação.
+API REST com funcionalidades de login e registrar usuário, utilizando JWT para autenticação.
 <br><br>
 
 ### Linguagem
