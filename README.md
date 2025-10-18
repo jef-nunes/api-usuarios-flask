@@ -1,5 +1,5 @@
 ### Sobre
-API REST com funcionalidades de login e registrar usuário, utilizando JWT para autenticação.
+Protótipo de API REST com funcionalidades de login e registrar usuário, utilizando JWT para autenticação.
 <br><br>
 
 ### Linguagem
@@ -27,29 +27,4 @@ As respostas da API foram padronizadas conforme o exemplo abaixo:
   "timestamp":"26-09-2025 22:46"
 }
 ```
-<br>
-<br>
 
-### Endpoints
-
-1. Registrar usuário:
-- Método: POST
-- Path: /user-register
-- Body:
-```json
-{
-  "username":"seu-usuario",
-  "password":"sua-senha"
-}
-```
-
-2. Login:
-- Método: POST
-- Path: /login
-- Body:
-```json
-{
-  "username":"seu-usuario",
-  "password":"sua-senha"
-}
-```
